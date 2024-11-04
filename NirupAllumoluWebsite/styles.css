@@ -1,0 +1,151 @@
+/* Basic styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+.header-content p {
+    margin: 5px 0 0 0;
+}
+
+/* Add this style to change link color in the header */
+header a {
+    color: #ffffff;
+}
+
+nav {
+    background-color: #333333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    padding: 14px 22px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555555;
+}
+
+.section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid #cccccc;
+}
+
+.section h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #000000;
+}
+
+.section h4 {
+    color: #333333;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #000000;
+}
+
+.tab button:hover {
+    background-color: #dddddd;
+}
+
+.tab button.active {
+    background-color: #ffffff;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+p, li {
+    text-align: justify;
+}
+
+/* General link styles */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav li {
+        float: none;
+    }
+    .tab button {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .header-content p {
+        font-size: 0.9em;
+    }
+}

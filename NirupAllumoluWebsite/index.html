@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nirup Allumolu | Professional Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>Nirup Allumolu</h1>
+        <p>
+            Email: <a href="mailto:nirup.allumolu@gmail.com">nirup.allumolu@gmail.com</a> |
+            <a href="https://www.linkedin.com/in/nirup-allumolu" target="_blank">LinkedIn</a> |
+            Phone: 732-242-2084 | New Jersey, 08837
+        </p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#intro" onclick="showSection('intro')">Home</a></li>
+        <li><a href="#certifications" onclick="showSection('certifications')">Certifications</a></li>
+        <li><a href="#work-experience" onclick="showSection('work-experience')">Work Experience</a></li>
+        <li><a href="#leadership" onclick="showSection('leadership')">Leadership</a></li>
+        <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Introduction Section -->
+<div id="intro" class="section">
+    <h2>Welcome to My Professional Portfolio</h2>
+    <p>Hello! I'm <strong>Nirup Allumolu</strong>, a dedicated and passionate individual pursuing a B.A. in Computer Science & Data Science at Rutgers University, New Jersey. I have a strong foundation in programming languages such as Python, Java, JavaScript, SQL, and C++. My interests span from technology to sports, including NBA, volleyball, cars, fashion, music, fitness, comedy, and video gaming.</p>
+    <p>Explore my website to learn more about my certifications, work experience, and leadership roles. Feel free to reach out to me through the contact information provided.</p>
+</div>
+
+<!-- Certifications Section -->
+<section id="certifications" class="section" style="display: none;">
+    <h2>Certifications & Training</h2>
+    <div class="tab">
+        <button onclick="openTab(event, 'cert-tab1')">PCAP™ – Python Programming</button>
+        <button onclick="openTab(event, 'cert-tab2')">TATA – Data Visualization</button>
+        <button onclick="openTab(event, 'cert-tab3')">J.P. Morgan – Software Engineering</button>
+        <button onclick="openTab(event, 'cert-tab4')">Cisco – Introduction to IoT</button>
+        <button onclick="openTab(event, 'cert-tab5')">Summary</button>
+    </div>
+
+    <div id="cert-tab1" class="tabcontent">
+        <h3>PCAP™ – Certified Associate in Python Programming</h3>
+        <p>The PCAP™ (Python Certified Associate Programmer) certification provided me with a strong foundation in Python programming, covering core concepts and allowing me to build complex applications with confidence. This certification focused on essential programming skills, such as:</p>
+        <ul>
+            <li><strong>Fundamental Python syntax and semantics:</strong> Gained a thorough understanding of Python’s syntax, data types, control flow (loops, conditional statements), and error handling, enabling me to write clear, efficient, and error-free code.</li>
+            <li><strong>Object-oriented programming (OOP):</strong> Learned to design classes, utilize inheritance, and implement encapsulation and polymorphism, allowing me to structure programs that are both modular and scalable.</li>
+            <li><strong>Libraries and modules:</strong> Became proficient in importing and using Python’s standard libraries, such as math, datetime, and random, and in structuring code for efficient modular programming.</li>
+            <li><strong>Debugging and testing:</strong> Learned best practices for debugging code and performing unit testing, ensuring that programs run reliably across a range of inputs and use cases.</li>
+        </ul>
+        <p>Completing the PCAP™ certification reinforced my Python skills, providing me with the knowledge to create, test, and troubleshoot scripts and applications. It also gave me a solid foundation for learning more advanced programming concepts and frameworks.</p>
+    </div>
+
+    <div id="cert-tab2" class="tabcontent">
+        <h3>TATA – Data Visualization</h3>
+        <p>The Data Visualization certification from Tata introduced me to the principles and tools of creating impactful and meaningful data visualizations. Throughout this course, I learned to:</p>
+        <ul>
+            <li><strong>Work with data visualization tools and libraries:</strong> Became proficient in using libraries like Matplotlib, Seaborn, and Plotly to create charts, graphs, and complex visual representations of data.</li>
+            <li><strong>Designing for clarity and engagement:</strong> Learned about the importance of color schemes, layout, and labeling to create visuals that effectively convey information without overwhelming the viewer.</li>
+            <li><strong>Transforming raw data into insights:</strong> Learned to interpret raw datasets, identify trends, and communicate insights through visual representations, crucial for helping stakeholders understand and make data-driven decisions.</li>
+            <li><strong>Handling large datasets and dynamic visualizations:</strong> Trained to work with large datasets, filter and clean data, and build dynamic visualizations that could adapt based on real-time data updates.</li>
+        </ul>
+        <p>Through this certification, I acquired skills to transform data into powerful visuals that tell a story, allowing complex information to be understood quickly. These skills are essential for roles that require data analysis and communication, such as data science, marketing analytics, or business intelligence.</p>
+    </div>
+
+    <div id="cert-tab3" class="tabcontent">
+        <h3>J.P. Morgan – Software Engineering Virtual Experience</h3>
+        <p>The J.P. Morgan Software Engineering Virtual Experience provided practical training on real-world applications of software engineering in a financial context. During this program, I worked on a simulated project that mimicked the workflows and challenges faced by software engineers in the finance sector. Key skills I developed included:</p>
+        <ul>
+            <li><strong>Data visualization and front-end development:</strong> Created visual representations of financial data, working with tools and frameworks commonly used in the industry. Built dynamic, user-friendly dashboards to display stock market data trends.</li>
+            <li><strong>Data analysis with Python:</strong> Worked with financial data, using Python libraries like Pandas to perform data manipulation, filter datasets, and analyze market trends.</li>
+            <li><strong>RESTful API integration:</strong> Integrated REST APIs to pull in real-time stock data, learning how to work with external data sources, manage API requests, and handle JSON data.</li>
+            <li><strong>Version control and collaboration:</strong> Practiced using Git for version control, managing branches, and merging changes, reinforcing collaborative coding skills and familiarity with agile workflows.</li>
+        </ul>
+        <p>This virtual experience strengthened my software engineering skills and gave me insight into how these skills are applied within the financial sector, preparing me for roles that require data analysis, software development, and collaboration within fast-paced environments.</p>
+    </div>
+
+    <div id="cert-tab4" class="tabcontent">
+        <h3>Cisco Networking Academy – Introduction to IoT</h3>
+        <p>The Cisco Networking Academy’s Introduction to IoT (Internet of Things) certification provided me with foundational knowledge of IoT concepts, networking, and how connected devices are transforming industries. This course covered the following areas:</p>
+        <ul>
+            <li><strong>Understanding IoT architecture and infrastructure:</strong> Learned about the various components of IoT, including sensors, actuators, and gateways, and how they interact within a network to transmit and process data.</li>
+            <li><strong>Network fundamentals and connectivity protocols:</strong> Studied the essentials of networking, such as IP addressing, network topologies, and communication protocols (e.g., MQTT and HTTP), understanding how IoT devices connect and communicate securely.</li>
+            <li><strong>Data flow and cloud integration:</strong> Explored how data collected from IoT devices is processed, stored, and analyzed on cloud platforms, understanding cloud computing basics and scalability.</li>
+            <li><strong>IoT security and privacy considerations:</strong> Gained insight into best practices for securing devices, protecting data transmission, and ensuring user privacy in an interconnected environment.</li>
+        </ul>
+        <p>This certification equipped me with a comprehensive understanding of how IoT devices operate within networks, the role they play in gathering and processing data, and the importance of maintaining secure connections. This knowledge is essential for roles in networking, cybersecurity, and data management, particularly within industries adopting IoT technology.</p>
+    </div>
+
+    <div id="cert-tab5" class="tabcontent">
+        <h3>Summary</h3>
+        <p>Each of these certifications has added a unique layer of technical skills and practical knowledge to my toolkit. From mastering Python programming and data visualization to understanding software engineering in a financial context and the fundamentals of IoT, these certifications have prepared me to tackle complex, technology-driven challenges and succeed in roles that demand both technical expertise and problem-solving skills.</p>
+    </div>
+</section>
+
+<!-- Work Experience Section -->
+<section id="work-experience" class="section" style="display: none;">
+    <h2>Work Experience</h2>
+    <div class="tab">
+        <button onclick="openTab(event, 'work-tab1')">Software Development Intern at MSKCC</button>
+        <button onclick="openTab(event, 'work-tab2')">IT Intern at Edison Public Schools</button>
+    </div>
+
+    <div id="work-tab1" class="tabcontent">
+        <h3>Software Development Intern at Memorial Sloan Kettering Cancer Center (MSK)</h3>
+        <p><strong>Overview:</strong> During my time as a Software Development Intern at MSK, I was entrusted with developing and implementing a Python-based solution to enhance the security of remote device connections. Given the sensitive nature of MSK’s healthcare data, ensuring that only secure, authorized devices could access the network was a top priority. My work centered on automating data categorization and analysis, strengthening security policies, and streamlining reporting—efforts that collectively helped MSK better manage their cybersecurity risk.</p>
+        <h4>Developing a Python-Based Script for VPN Device Usage Categorization</h4>
+        <ul>
+            <li>Parsed and processed VPN connection logs to gather metadata such as device type, access time, and user ID.</li>
+            <li>Automated device categorization by integrating company-provided device IDs and mapping these to user activity logs.</li>
+            <li>Implemented a flagging system for unregistered devices to notify the IT department of potential security risks.</li>
+            <li>Resulted in a 15% reduction in personal device usage and improved data security by 20%.</li>
+        </ul>
+        <h4>Collaborating with the Networking Team to Enhance Security Protocols</h4>
+        <ul>
+            <li>Analyzed device usage trends to identify potential security vulnerabilities.</li>
+            <li>Integrated real-time alerts for non-compliant devices, enabling quick response to unauthorized access.</li>
+            <li>Improvements led to a 25% increase in policy enforcement efficiency.</li>
+        </ul>
+        <h4>Conducting Data Analysis on User and Device Trends</h4>
+        <ul>
+            <li>Aggregated and visualized usage patterns to highlight unapproved device connections.</li>
+            <li>Reported unusual access trends to security teams, aiding in tailoring security protocols.</li>
+            <li>Contributed to stronger security policy outcomes backed by data insights.</li>
+        </ul>
+        <h4>Developing a Python-Based Reporting System for Security Metrics</h4>
+        <ul>
+            <li>Aggregated data from multiple sources into a single format using Pandas and Matplotlib.</li>
+            <li>Automated report generation and distribution, reducing manual effort by 40%.</li>
+            <li>Improved data accuracy by 25% due to fewer manual entry errors.</li>
+        </ul>
+        <p><strong>Overall Impact:</strong> My internship at MSK provided me with a unique opportunity to apply my technical skills in a high-stakes environment. By developing an automated device categorization system, conducting user trend analysis, and creating a robust reporting tool, I was able to contribute meaningfully to MSK’s data security strategy. The experience taught me the importance of proactive, data-driven security solutions in healthcare and the value of collaboration in implementing impactful security measures.</p>
+    </div>
+
+    <div id="work-tab2" class="tabcontent">
+        <h3>IT Intern at Edison Public Schools | June 30, 2021 – June 17, 2022</h3>
+        <p><strong>Overview:</strong> During my internship with Edison Public Schools, I worked in the IT Department, where I supported the deployment of critical software, network security measures, and automated solutions to streamline processes. This role allowed me to take on diverse tasks that ranged from hands-on technical support to implementing strategic IT protocols, ultimately enhancing both user experience and operational efficiency across the school district.</p>
+        <h4>Managing Software and Hardware Installations</h4>
+        <ul>
+            <li>Oversaw installation and configuration of software and hardware for over 100 devices across various school sites.</li>
+            <li>Installed and updated essential software programs on student and staff devices, ensuring each device met the district’s security and performance standards.</li>
+            <li>Deployed network security tools like Cisco AMP and Lightspeed Systems, boosting network efficiency and safeguarding IT infrastructure from potential security threats.</li>
+        </ul>
+        <h4>Automating Administrative Tasks with JavaScript</h4>
+        <ul>
+            <li>Automated repetitive administrative tasks such as account logins and password resets using JavaScript.</li>
+            <li>Reduced login issues and manual intervention for common troubleshooting tasks, freeing up IT staff to focus on more complex issues.</li>
+            <li>Achieved a 30% reduction in manual workload, significantly improving user experience across the district.</li>
+        </ul>
+        <h4>Leading Network Security Protocol Implementation</h4>
+        <ul>
+            <li>Implemented security protocols to monitor device activities and safeguard the network against potential cyber threats.</li>
+            <li>Managed firewall settings and configured access restrictions to ensure secure network usage.</li>
+            <li>Reduced security incidents by 25% through proactive monitoring and troubleshooting.</li>
+        </ul>
+        <h4>Optimizing Device Provisioning through System Cloning</h4>
+        <ul>
+            <li>Developed a cloning solution to copy standardized OS images onto new or refreshed devices.</li>
+            <li>Reduced provisioning time by 50%, allowing quick deployment of new devices, especially during peak periods.</li>
+            <li>Ensured consistency across all devices, enhancing the overall experience for teachers and students.</li>
+        </ul>
+        <p><strong>Overall Impact:</strong> My internship at Edison Public Schools was a hands-on experience that taught me the importance of efficiency, security, and automation in an educational IT environment. From managing large-scale installations to automating workflows with JavaScript and optimizing device provisioning, I was able to contribute meaningfully to the district’s IT operations. These initiatives not only improved the efficiency of the IT department but also elevated the user experience for hundreds of students and staff, creating a lasting impact on the district’s digital infrastructure.</p>
+    </div>
+</section>
+
+<!-- Leadership Section -->
+<section id="leadership" class="section" style="display: none;">
+    <h2>Leadership Experience</h2>
+    <div class="tab">
+        <button onclick="openTab(event, 'leadership-tab1')">Sports Coach at On The Court, LLC</button>
+        <button onclick="openTab(event, 'leadership-tab2')">Ubuntu Lead at CyberPatriot</button>
+    </div>
+
+    <div id="leadership-tab1" class="tabcontent">
+        <h3>Sports Coach | On The Court, LLC, Warren County, NJ | December 2022 – Present</h3>
+        <p><strong>Overview:</strong> Working as a Sports Coach at On The Court, LLC has allowed me to make a meaningful impact on over 100 young athletes, coaching them in foundational basketball skills while emphasizing the importance of leadership, teamwork, and resilience. My role involves guiding players through skill-building exercises, motivating them to push beyond their limits, and instilling values that extend beyond the court.</p>
+        <h4>Leading and Mentoring Players Through Tailored Training</h4>
+        <ul>
+            <li>Led over 100 training sessions designed to develop technical skills, build endurance, and foster mental resilience.</li>
+            <li>Provided individual mentorship and group coaching, adapting my coaching style to meet individual needs.</li>
+            <li>Developed and implemented over 10 specific drills focused on agility, footwork, and endurance.</li>
+            <li>Achieved a 50% improvement in team performance, with players showing growth in technical skills and confidence.</li>
+        </ul>
+        <h4>Boosting Engagement and Prioritizing Safety</h4>
+        <ul>
+            <li>Increased engagement by 30% through interactive coaching techniques, incorporating games and challenges.</li>
+            <li>Conducted strategic planning and opponent analysis for over 5 matches, adjusting player positioning and developing game strategies.</li>
+            <li>Introduced injury prevention protocols, including warm-ups, stretching routines, and hydration guidelines.</li>
+        </ul>
+        <p><strong>Overall Impact:</strong> My coaching experience at On The Court has taught me valuable lessons in leadership, mentorship, and the impact of creating a supportive, growth-oriented environment. By balancing athletic skill development with life skills like resilience, teamwork, and dedication, I have contributed to an experience that enhances both the players’ performance and their enjoyment of the game.</p>
+    </div>
+
+    <div id="leadership-tab2" class="tabcontent">
+        <h3>Ubuntu Lead | CyberPatriot National Youth Cyber Defense Competition | 2018 – 2022</h3>
+        <p><strong>Overview:</strong> As the Ubuntu Lead for my CyberPatriot team, I was responsible for securing Linux-based systems in high-stakes cyber defense scenarios. My role involved configuring, hardening, and managing Ubuntu environments while collaborating with teammates across different system platforms. This experience required a combination of technical expertise, strategic thinking, and team mentorship.</p>
+        <h4>Leading Ubuntu Security Configuration</h4>
+        <ul>
+            <li>Configured firewalls using UFW and managed 10+ user accounts with strong security practices.</li>
+            <li>Set up file permissions and access controls to protect sensitive files.</li>
+            <li>Enhanced the team’s ability to withstand potential cyber threats through proactive system hardening.</li>
+        </ul>
+        <h4>Automating Updates and Enhancing System Integrity</h4>
+        <ul>
+            <li>Automated over 100 updates using package management tools, ensuring systems ran the latest security patches.</li>
+            <li>Managed file permissions and user privileges to control access to sensitive directories.</li>
+            <li>Strengthened system integrity and reduced the likelihood of security incidents related to outdated software.</li>
+        </ul>
+        <h4>Analyzing System Logs and Strengthening Breach Detection</h4>
+        <ul>
+            <li>Reviewed and analyzed over 50 system logs to identify suspicious activity.</li>
+            <li>Parsed log files for anomalies to detect potential security breaches.</li>
+            <li>Improved system defenses and incident response readiness by addressing vulnerabilities proactively.</li>
+        </ul>
+        <h4>Training Teammates in Linux Fundamentals</h4>
+        <ul>
+            <li>Trained four teammates in Linux fundamentals, covering command-line navigation and basic security protocols.</li>
+            <li>Facilitated collaboration across platforms by empowering teammates with Linux skills.</li>
+            <li>Led to a 20% improvement in team performance and strengthened team cohesion.</li>
+        </ul>
+        <p><strong>Overall Impact:</strong> Serving as the Ubuntu Lead for my CyberPatriot team was an invaluable experience that allowed me to apply and deepen my technical skills in cybersecurity. By managing system configurations, automating security updates, analyzing vulnerabilities, and mentoring teammates, I contributed significantly to our team’s readiness and success in the competition.</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section" style="display: none;">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me via email or phone. I'm always open to discussing new opportunities, collaborations, or any questions you may have.</p>
+    <p>Email: <a href="mailto:nirup.allumolu@gmail.com">nirup.allumolu@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/nirup-allumolu" target="_blank">linkedin.com/in/nirup-allumolu</a></p>
+    <p>Phone: 732-242-2084</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 Nirup Allumolu</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
