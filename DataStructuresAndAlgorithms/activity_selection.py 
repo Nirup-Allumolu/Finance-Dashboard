@@ -1,0 +1,47 @@
+# Activity Selection Problem using Greedy Algorithm
+
+# Define the number of activities
+num_activities = 6
+
+# Create start and finish times for 6 activities
+# Format: (start_time, finish_time)
+activities = [
+    (1, 4),  # Activity 1
+    (3, 5),  # Activity 2
+    (0, 6),  # Activity 3
+    (5, 7),  # Activity 4
+    (8, 9),  # Activity 5
+    (5, 9)   # Activity 6
+]
+
+# Function to select the maximum number of non-overlapping activities
+def activity_selection(activities):
+    # Sort activities based on their finish times (ascending order)
+    # This ensures we always pick the activity that finishes first
+    sorted_activities = sorted(activities, key=lambda x: x[1])
+    
+    # Initialize the list to store selected activities
+    selected_activities = []
+    
+    # The first activity is always selected
+    selected_activities.append(sorted_activities[0])
+    last_finish_time = sorted_activities[0][1]  # Finish time of the last selected activity
+    
+    # Iterate through the remaining activities
+    for i in range(1, len(sorted_activities)):
+        # If the current activity's start time is greater than or equal to
+        # the finish time of the last selected activity, select it
+        if sorted_activities[i][0] >= last_finish_time:
+            selected_activities.append(sorted_activities[i])
+            last_finish_time = sorted_activities[i][1]  # Update the last finish time
+    
+    return selected_activities
+
+# Call the function and get the selected activities
+selected = activity_selection(activities)
+
+# Print the selected activities
+print("Selected Activities (start, finish):")
+for activity in selected:
+    print(activity)
+    

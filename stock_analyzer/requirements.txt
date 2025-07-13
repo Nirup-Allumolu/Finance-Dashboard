@@ -1,0 +1,10 @@
+flask==3.1.1
+yfinance==0.2.63
+pandas==2.3.0
+numpy==2.0.2
+matplotlib==3.9.4
+plotly==6.1.2
+apscheduler==3.11.0
+SQLAlchemy==2.0.41
+flask-mail==0.10.0
+python-dotenv==1.1.0 
